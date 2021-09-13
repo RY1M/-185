@@ -1,0 +1,32 @@
+#include "opencv2/highgui/highgui.hpp" 
+#include "opencv2/imgproc/imgproc.hpp" 
+#include <iostream> 
+#include <stdio.h>  
+#include <stdlib.h> 
+
+using namespace cv;
+using namespace std;
+int main()
+{
+	//int height = 520; //высота
+	//int width = 840; // ширина
+	//Mat img(height, width, CV_8UC3); //mat-создает матрицу, cv 8 разрядная матрица с 3 каналами
+	//Point textOrg(300, img.rows / 2); // point координаты x,y , где 300 расположение
+	//int fontFace = FONT_HERSHEY_SIMPLEX; // настройка шрифта
+	//double fontScale = 1; // double переменная целого числа, fontscale коэффициент масштабирование текста
+	//Scalar color(0, 0, 20); // скалярный тип данных используется для передачи значения пиксилей, color цвет 
+	//putText(img, "Step By Step", textOrg, fontFace, fontScale, color); // используется для рисования текстовой строки на любом изображении
+	//namedWindow("Hello World", 0); // название окна
+	//imshow("Hello World", img); // отображает изображение в градациях серого на рисунке
+	
+	
+	
+	Mat img; //создает матрицу
+	img = imread("image.jpg", 1); //image.jpg (imread -  считывает изображение из файла, заданного , выводя формат файла из его содержимого.)
+	namedWindow("Hello World", WINDOW_AUTOSIZE); // название окна, авторазмер
+	imshow("Hello World", img);
+	
+	waitKey(0); //  возвращает int
+	return (0); // возвращение функции
+
+}
