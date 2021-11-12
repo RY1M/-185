@@ -1,2 +1,6 @@
+Создать папку import
+Зайти в папку на компьютере пкм git bush 
+Туда добавим наши файлы
 git add .
-git commit - m
+git commit - m "Любой тест"
+git push  https://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@github.com/RY1M/Volokhov-185.git
