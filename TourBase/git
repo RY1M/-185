@@ -1,5 +1,6 @@
 Создать папку import
 Зайти в папку на компьютере пкм git bush 
+git pull $ git clone https://github.com/RY1M/Volokhov-185.git
 Туда добавим наши файлы
 git add .
 git commit - m "Любой тест"
