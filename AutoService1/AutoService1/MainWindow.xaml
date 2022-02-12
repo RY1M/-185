@@ -1,0 +1,22 @@
+﻿<Window x:Class="AutoService1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoService1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="218*"/>
+            <RowDefinition Height="112*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="1" Width="175" Height="30" Content="Редактировать" Margin="499,123,118,65"/>
+        <Button Grid.Row="2" Width="175" Height="30" Content="Редактировать" Margin="502,44,115,38"/>
+        <Image Source="Resources/service_logo.png" HorizontalAlignment="Left"></Image>
+        <TextBlock Text="Автосервис" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <Grid Background="OrangeRed" Panel.ZIndex="-2"></Grid>
+    </Grid>
+</Window>
